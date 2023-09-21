@@ -1,0 +1,36 @@
+body {
+  background: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background: red;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.link:hover {
+  color: red;
+}
+
+.red {
+  color: red;
+}
+
+.date {
+  color: gray;
+}
+
+.footer {
+  font-size: small;
+  color: gray;
+}
