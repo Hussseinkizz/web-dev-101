@@ -1,0 +1,45 @@
+.container {
+  background: gray;
+  border: 2px solid red;
+  margin: 1rem;
+  padding: 5rem;
+  position: relative;
+}
+
+.box.a {
+  background: red;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.box.b {
+  position: absolute;
+  top: 4rem;
+  z-index: 4;
+  padding: 2rem;
+  background: green;
+}
+.box.c {
+  position: absolute;
+  top: 8rem;
+  z-index: 3;
+  background: blue;
+  padding: 2rem;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+} */
+/* .trial {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+    z-index: 3;
+  background: black;
+  color: white;
+} */
